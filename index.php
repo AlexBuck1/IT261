@@ -38,6 +38,16 @@
             <li><a href="weeks/week2/currency.php">currency.php</li>
             <li><a href="weeks/week2/heredoc.php">heredoc.php</li>
         </ul>
+        <br>
+        <h3>Week 3</h3>
+    <ul>
+            <li><a href="weeks/week3/date.php">date.php</li>
+            <li><a href="weeks/week3/for-each.php">for-each.php</li>
+            <li><a href="weeks/week3/for-loop.php">for-loop.php</li>
+            <li><a href="weeks/week3/if.php">if.php</li>
+            <li><a href="weeks/week3/index.php">index.php</li>
+            <li><a href="weeks/week3/switch.php">switch.php</li>
+    </ul>
 
     </aside>
     <img src="images/mamp_setup.png" alt="MAMP Setup">
