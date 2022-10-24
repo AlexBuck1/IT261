@@ -32,22 +32,32 @@
         <h2>Weekly Class Exercises</h2>
         <h3>Week 2</h3>
         <ul>
-            <li><a href="weeks/week2/var.php">var.php</li>
-            <li><a href="weeks/week2/vars2.php">vars2.php</li>
-            <li><a href="weeks/week2/currency-logic.php">currency-logic.php</li>
-            <li><a href="weeks/week2/currency.php">currency.php</li>
-            <li><a href="weeks/week2/heredoc.php">heredoc.php</li>
+            <li><a href="weeks/week2/var.php">var.php</a></li>
+            <li><a href="weeks/week2/vars2.php">vars2.php</a></li>
+            <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+            <li><a href="weeks/week2/currency.php">currency.php</a></li>
+            <li><a href="weeks/week2/heredoc.php">heredoc.php</a></li>
         </ul>
         <br>
         <h3>Week 3</h3>
-    <ul>
-            <li><a href="weeks/week3/date.php">date.php</li>
-            <li><a href="weeks/week3/for-each.php">for-each.php</li>
-            <li><a href="weeks/week3/for-loop.php">for-loop.php</li>
-            <li><a href="weeks/week3/if.php">if.php</li>
-            <li><a href="weeks/week3/index.php">index.php</li>
-            <li><a href="weeks/week3/switch.php">switch.php</li>
-    </ul>
+        <ul>
+            <li><a href="weeks/week3/date.php">date.php</a></li>
+            <li><a href="weeks/week3/for-each.php">for-each.php</a></li>
+            <li><a href="weeks/week3/for-loop.php">for-loop.php</a></li>
+            <li><a href="weeks/week3/if.php">if.php</a></li>
+            <li><a href="weeks/week3/index.php">index.php</a></li>
+            <li><a href="weeks/week3/switch.php">switch.php</a></li>
+        </ul>
+        <br>
+        <h3>Week 4</h3>
+        <ul>
+            <li><a href="weeks/week4/form-get.php">form-get.php</a></li>
+            <li><a href="weeks/week4/form1.php">form1.php</a></li>
+            <li><a href="weeks/week4/form2.php">form2.php</a></li>
+            <li><a href="weeks/week4/form3.php">form3.php</a></li>
+            <li><a href="weeks/week4/arithmetic-form.php">arithmetic-form.php</a></li>
+            <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
+        </ul>
 
     </aside>
     <img src="images/mamp_setup.png" alt="MAMP Setup">
