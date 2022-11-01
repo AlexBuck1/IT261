@@ -1,0 +1,93 @@
+/* styles for my calculator */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:#fff; 
+    color:black; 
+}
+
+select{
+    display:block;
+    margin-bottom:2px; 
+}
+
+form{
+    width:400px;
+    margin:30px auto;
+    padding:10px;
+    background:teal; 
+    overflow:hidden; 
+}
+
+form a{
+    text-decoration:none;
+
+}
+form ul{
+    list-style: none;
+    margin: 0 0 5px 5px; 
+}
+
+label{
+    display:block; 
+    margin:2px 0; 
+}
+
+input{
+    margin: 3px 0 8px 0; 
+}
+
+fieldset{
+    border-style: none;
+}
+
+.error{
+    color:red; 
+    font-style: italic;
+    text-align:center; 
+}
+
+.informationBox{
+    color:navy; 
+    border:2px solid navy;
+    padding:5px;
+    overflow:hidden;
+    width: 400px; 
+    background:teal; 
+    text-align: center;
+    margin:30px auto;
+}
+
+footer {
+    clear:both; 
+    background: #fff; 
+    text-align: center;
+    margin : 0 auto;
+   
+}
+
+footer li{
+    float:center; 
+    margin-right:10px;
+    list-style-type:none;
+    padding: 5px; 
+   
+}
+
+button {
+    padding: 6px; 
+    background:navy; 
+    text-align: center; 
+    margin: 20px auto; 
+    display: block; 
+}
+
+h1 {
+    text-align: center;
+}
