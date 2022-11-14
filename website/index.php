@@ -1,7 +1,13 @@
-<?php include('./includes/header.php'); ?>
+<?php 
+include('config.php');
+include('./includes/header.php'); ?>
   <div id="wrapper">
       <div id="hero">
-        <img src="images/twelve.jpeg" alt="Twelve is greater than three">
+<?php
+    echo random_pics($photos);
+?>
+        </pre>
+    </h2>
       </div>
       <!-- end hero-->
       <main>

@@ -16,6 +16,11 @@ header {
     padding: 20px 0;
 }
 
+#thxText {
+    text-align: center;
+    color: navy;
+}
+
 .inner-header {
     max-width: 1200px;
     margin: 0px auto;
@@ -114,3 +119,4 @@ h1, h2, h3 {
     margin-bottom:10px;
     font-family:serif;
 }
+
