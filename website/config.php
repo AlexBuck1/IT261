@@ -45,7 +45,7 @@ $nav = array(
   'index.php' => 'Home',
   'about.php' => 'About',
   'daily.php' => 'Daily',
-  'project.php' => 'Project',
+  'people.php' => 'People',
   'contact.php' => 'Contact',
   'gallery.php' => 'Gallery'
 );
@@ -56,7 +56,7 @@ function make_links($nav) {
         if (THIS_PAGE == $key) {
             $my_return .= '<li><a class="current" href="'.$key.'">'.$value.'</a></li>';
         } else {
-            $my_return .= '<li><a style="color:green;"href=" '.$key.' "> '.$value.' </a></li>';
+            $my_return .= '<li><a style="color:green;" href=" '.$key.' "> '.$value.' </a></li>';
         }
 
 
@@ -253,6 +253,17 @@ $player)) {
 
 } // end server request method
 
+$players[0] = 'player1';
+$players[2] = 'player2';
+$players[3] = 'player3';
+$players[4] = 'player4';
+$players[5] = 'player5';
+$players[6] = 'player6';
+$players[7] = 'player7';
+$players[8] = 'player8';
+$players[9] = 'player9';
+$players[10] = 'player10';
+
 // random photos....
 $photos = array(
     'photo1',
@@ -269,7 +280,27 @@ $photos[3] = 'photo4';
 $photos[4] = 'photo5';
 
 function random_pics($photos) {
-    $i = rand(0, 4);
+    $i = rand(0, 10);
     $selected_image = ''.$photos[$i].'.jpg';
     return '<img src="images/'.$selected_image.'" alt="'.$photos[$i].'">';
+}
+
+ob_start();  // prevents header errors before reading the whole page!
+define('DEBUG', 'TRUE');  // We want to see our errors
+
+include('credentials.php');
+
+ function myError($myFile, $myLine, $errorMsg)
+{
+if(defined('DEBUG') && DEBUG)
+{
+ echo 'Error in file: <b> '.$myFile.' </b> on line: <b> '.$myLine.' </b>';
+      echo 'Error message: <b> '.$errorMsg.'</b>';
+      die();
+  }  else {
+      echo ' Houston, we have a problem!';
+      die();
+  }
+    
+    
 }

@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: yellow;
+    background: teal;
     padding: 20px 0;
 }
 
@@ -56,21 +56,21 @@ overflow:hidden;
 
 #hero {
 
-background: red;
+background: green;
 margin-bottom: 20px;
 }
 
 main{
 width:62%;
 
-background: lightblue;
+background: teal;
 float: left;
 }
 
 aside {
 width: 35%;
 
-background: lightsalmon;
+background: navy;
 float: right;
 
 }
