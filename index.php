@@ -85,6 +85,10 @@
             <li><a href="weeks/week8/people.php">people.php</a></li>
             <li><a href="weeks/week8/people-view.php">people-view.php</a></li>
         </ul>
+        <h3>Week 9/10</h3>
+        <ul>
+            <li><a href="weeks/week9/register.php">register.php</a></li>
+        </ul>
     </aside>
     <img src="images/mamp_setup.png" alt="MAMP Setup">
     <img src="images/php_error.png" alt="PHP Errors">
